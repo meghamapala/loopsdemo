@@ -18,8 +18,14 @@ public class HelloWorld {
 		while(num<=30) {
 			
 			System.out.println(num);
-			num=num-2;
+			num++;
 		}
+		System.out.println("*****");
+		
+		do {
+			System.out.print(num);
+			num--;
+		}while(num>15);
 
 	}
 
